@@ -1,3 +1,9 @@
+## Twig Debug
+Twig Debug
+parameters:
+  twig.config:
+    debug: true
+    
 ## Links
 To link to a url from twig: a href="content.field_link[0]['#url']"
 Link type
