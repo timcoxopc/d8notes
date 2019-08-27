@@ -1,13 +1,8 @@
+- [Twig](/twig)
+
 ## Reload Bash
 ```bash
 source ~/.bashrc
-```
-
-## Twig Debug
-```yml
-parameters:
-  twig.config:
-    debug: true
 ```
 
 ## VSCode
