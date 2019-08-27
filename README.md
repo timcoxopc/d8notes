@@ -1,37 +1,90 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/timcoxopc/d8notes/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Reload Bash
+```bash
+source ~/.bashrc
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Twig Debug
+```yml
+parameters:
+  twig.config:
+    debug: true
+```
 
-### Jekyll Themes
+## VSCode
+CONTROL + P - Quick mode
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/timcoxopc/d8notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Chrome
+CONTROL + SHIFT + P - Command Mode
 
-### Support or Contact
+## Shell Commands
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Applying Patch
+```bash
+patch -p1 < patch
+```
+
+### Misc
+drush uprm -rf - Remove all contents
+chown devboxco:devboxco filename
+sudo chown -R devboxco:nobody target
+
+### Files
+pwd
+-r
+ls (-l vs -al) -a shows hidden files (-k?)
+autocomplete?
+chmod(o/g/u)(-/+) -r   or a=r (all == read)
+chown owner file  /chown owner:group file
+chgrp group file
+
+### Compress / Uncompress
+zip new.zip filename.txt
+unzip new.zip
+gzip filename.txt
+gunzip new.zip
+tar -cvf (Create, verbose, file) file.tar file.txt
+tar -xvf file.tar (x = extract, doesn't destroy tar)
+tar -cvzf file.tar.gz (or .tgz) create, verbose, zip, file
+tar -xvzf file.tar.gz (untar)
+
+### Creating Symbolic Links
+ln -s path newname(optional) (symbolic link) - Hard links?
+
+### SCO Copy from server
+ssh
+scp -r -pPORTNO user@sever:remotepath localpath
+
+### Searching (Files / Folders)
+locate file (all directories) - requires sudo updatedb to update (quick)
+find -name file (from where your located)
+find path(i.e. /) -name file
+find requires * wild card to find other files / locate doesn't
+
+### Searching (within files)
+grep 'string' file
+grep 'string' * (Search files within current directory)
+grep 'string' folder/* (Search within folder)
+grep -r 'string' folder/* (Search within folder recursivly)
+grep -r 'string' . (Search within folder recursivly from here)
+-n (show line number)
+-l (filenames only)
+-v (not)
+-i (ignore case)
+
+## Command history
+Ctrl + P (or up arrow) = go to previous command
+Ctrl + N (or down arrow) = go to next command
+Ctrl + R = search (Ctrl + R to scroll through, Esc to select but not execute)
+!!	Print previous command
+
+## Moving
+- Ctrl + E = move to end of line
+- Ctrl + A = move to beginning of line
+
+## Deleting
+- Ctrl + H (or back delete key) = one character backwards
+- Ctrl + D = one character forward
+- Ctrl + W = delete from cursor to beginning of word
+- Ctrl + U = clear from cursor to beginning of line
+- Ctrl + K = clear from cursor to end of line
+
