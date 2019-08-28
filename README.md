@@ -1,3 +1,6 @@
+---
+
+---
 [Home](https://timcoxopc.github.io/d8notes/)
 
 * [Twig](/d8notes/twig)
@@ -17,5 +20,3 @@ CONTROL + P - Quick mode
 ## Chrome
 
 CONTROL + SHIFT + P - Command Mode
-
-![](/uploads/Frida-Kahlo.jpg)
