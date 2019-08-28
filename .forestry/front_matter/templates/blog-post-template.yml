@@ -26,5 +26,3 @@ fields:
     time_format: 
     display_utc: false
   default: now
-pages:
-- _posts/2019-08-29-test.md
