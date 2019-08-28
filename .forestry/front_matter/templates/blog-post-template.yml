@@ -27,4 +27,4 @@ fields:
     display_utc: false
   default: now
 pages:
-- _posts/test.md
+- _posts/2019-08-29-test.md
