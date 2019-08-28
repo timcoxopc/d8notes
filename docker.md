@@ -46,9 +46,11 @@ docker image prune (prunes unused images)
 
 Exposing ports example:  docker run php:7-apache --expose 80:80
 
-Docker-Compose Commands
+## Docker-Compose Commands
 
+```bash
 docker exec containerID env
+```
 
 Docker Compose is the tool that makes Docker useful. It simplifies many mundane tasks of working with containers and streamlines the commands we need to use.
 
