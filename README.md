@@ -1,4 +1,5 @@
 - [Twig](/d8notes/twig)
+- [JavaScript](/d8notes/js)
 
 ## Reload Bash
 ```bash
