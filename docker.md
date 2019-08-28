@@ -24,11 +24,11 @@ docker-compose exec -T test drush uli
 - As a result, it's best practice to always use a relative path for the source (host OS) path, and an absolute path for the target (container) path. 
 
 ## Docker Commands
-docker run container command (e.g. docker run debian /bin/bash)
--i (interactive)
--t (terminal)
--it (interactive, terminal)
--d (detatched) - return the Conainter ID
+  docker run container command (e.g. docker run debian /bin/bash)
+  -i (interactive)
+  -t (terminal)
+  -it (interactive, terminal)
+  -d (detatched) - return the Conainter ID
 
 ```bash
 docker kill container_id (can pass multple container ids)
