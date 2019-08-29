@@ -19,4 +19,3 @@ CONTROL + P - Quick mode
 
 CONTROL + SHIFT + P - Command Mode
 
-lkf;sdlkfjs;lkfdj;sldkfj;lsdkfj;lsdkf
