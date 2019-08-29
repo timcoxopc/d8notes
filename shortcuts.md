@@ -1,3 +1,5 @@
+# Shortcuts
+
 ## VSCode
 
 CONTROL + P - Quick mode
