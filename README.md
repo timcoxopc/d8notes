@@ -1,5 +1,3 @@
-[Home](https://timcoxopc.github.io/d8notes/)
-
 * [Twig](twig)
 * [JavaScript](js)
 * [CSS](css)
@@ -12,3 +10,8 @@
 ```bash
 source ~/.bashrc
 ```
+
+## Github Pages
+https://mattallan.me/posts/github-pages-best-practices/
+
+[Home](https://timcoxopc.github.io/d8notes/)
