@@ -1,9 +1,9 @@
-# Shortcuts
+##Shortcuts
 
-## VSCode
+### VSCode
 
 CONTROL + P - Quick mode
 
-## Chrome
+### Chrome
 
 CONTROL + SHIFT + P - Command Mode
