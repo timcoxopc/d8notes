@@ -1,4 +1,7 @@
-## Twig Debug
+## Twig 
+
+### Twig Debug
+
 ```yml
 Twig Debug
 parameters:
@@ -6,16 +9,31 @@ parameters:
     debug: true
 ```
 
-## Links
+### Links
+
 To link to a url from twig: a href="content.field_link[0]['#url']"
 
-### Link type
+#### Link type
+
 ```twig
 content.field_link['#items'][0].uri 
 content.field_link['#items'][0].title
 ```
 
-## Debugging
-{{ dump() }} - Show all variables
-{{ dump(variable) }} - Show details of variable
-{{ items|safe_join(", ") }} ?
+### Debugging
+
+#### Show all variables
+
+```twig
+{{ dump() }} 
+```
+#### Show details of variable
+
+```twig
+{{ dump(variable) }} - 
+```
+#### ?
+
+```twig
+{{ items|safe_join(", ") }} 
+```
