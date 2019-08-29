@@ -61,19 +61,19 @@ grep -r 'string' . (Search within folder recursivly from here)
 \-v (not)
 \-i (ignore case)
 
-## Command history
+### Command history
 
 Ctrl + P (or up arrow) = go to previous command
 Ctrl + N (or down arrow) = go to next command
 Ctrl + R = search (Ctrl + R to scroll through, Esc to select but not execute)
 !!	Print previous command
 
-## Moving
+### Moving
 
 * Ctrl + E = move to end of line
 * Ctrl + A = move to beginning of line
 
-## Deleting
+### Deleting
 
 * Ctrl + H (or back delete key) = one character backwards
 * Ctrl + D = one character forward
