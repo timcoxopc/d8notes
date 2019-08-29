@@ -3,8 +3,9 @@
 * [Twig](twig)
 * [JavaScript](js)
 * [CSS](css)
-* [Shortcuts](shortcuts)
+* [Git](git)
 * [Shell](shell)
+* [Shortcuts](shortcuts)
 
 ## Reload Bash
 
