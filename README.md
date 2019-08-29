@@ -2,6 +2,7 @@
 
 * [Twig](/d8notes/twig)
 * [JavaScript](/d8notes/js)
+* [CSS](/d8notes/css)
 * Shell Commands
 
 ## Reload Bash
