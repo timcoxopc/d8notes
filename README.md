@@ -3,6 +3,7 @@
 * [Twig](/d8notes/twig)
 * [JavaScript](/d8notes/js)
 * [CSS](/d8notes/css)
+* [Shortcuts](d8/notes/shortcuts)
 * Shell Commands
 
 ## Reload Bash
@@ -10,12 +11,3 @@
 ```bash
 source ~/.bashrc
 ```
-
-## VSCode
-
-CONTROL + P - Quick mode
-
-## Chrome
-
-CONTROL + SHIFT + P - Command Mode
-
