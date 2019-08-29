@@ -17,3 +17,5 @@ CONTROL + P - Quick mode
 ## Chrome
 
 CONTROL + SHIFT + P - Command Mode
+
+lkf;sdlkfjs;lkfdj;sldkfj;lsdkfj;lsdkf
