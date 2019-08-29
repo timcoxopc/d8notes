@@ -1,6 +1,6 @@
-# CSS
+## CSS
 
-## Bootstrap class to make whole card clickable
+### Bootstrap class to make whole card clickable
 
 ```css
 .stretched-link::after {
